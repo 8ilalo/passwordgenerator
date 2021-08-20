@@ -4,8 +4,6 @@ var letters = "abcdefghijklmnopqstuvwxyz!#$%()*+,-./:;<=>?@[]\^_`{}|~0123456789A
 var stored = [];
 var letter = true;
 
-
-
 // CODE GOES HERE
 function generatePassword() {
   var length = 8;
@@ -19,7 +17,6 @@ function generatePassword() {
     var random = Math.floor(Math.random() * letters.length);
     password += letters[random]; 
   }
-  
   
   console.log(password);
 
@@ -35,7 +32,6 @@ function writePassword() {
     passwordText.value = password;
   }
 }
-
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
