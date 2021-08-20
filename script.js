@@ -15,14 +15,6 @@ function generatePassword() {
   number = confirm('do you want numbers?')
   special = confirm('do you want special characters?')
 
-
-  
-  if (letter) {
-    var random = Math.floor(Math.random() * letters.length);
-    var selectedlowercase = letters[random];
-    stored.push(selectedlowercase)
-  }
-
   for (var i = 0; i < length; i++) {
     var random = Math.floor(Math.random() * letters.length);
     password += letters[random]; 
