@@ -7,6 +7,6 @@
 
 ### [Website](https://8ilalo.github.io/passwordgenerator/)
 
-![Screenshot](03-javascript-homework-demo)
+![Screenshot](https://postimg.cc/WtqPjwGd)
 
 
